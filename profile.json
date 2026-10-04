@@ -1,0 +1,60 @@
+{
+  "login": "Kyzcreig",
+  "name": "Alexander Nikolas",
+  "tagline": "Building a house that runs itself \u2014 local voice (ESP32/XVF3800 satellites), Home Assistant, and an agent fleet that ships the PRs.",
+  "links": {
+    "X": {
+      "handle": "angalexg",
+      "url": "https://x.com/angalexg"
+    },
+    "Website": {
+      "handle": "alexandernikolas.com",
+      "url": "https://alexandernikolas.com/"
+    }
+  },
+  "own_orgs": [
+    "Kyzcreig",
+    "ANG-Ventures"
+  ],
+  "building": [
+    {
+      "repo": "Kyzcreig/pipecat-esp32-xvf3800"
+    },
+    {
+      "repo": "ANG-Ventures/ha-jbl-ma"
+    },
+    {
+      "repo": "Kyzcreig/haf700-lcd"
+    },
+    {
+      "repo": "Kyzcreig/hermes-claude-bridge"
+    },
+    {
+      "repo": "ANG-Ventures/agent-skills"
+    },
+    {
+      "repo": "ANG-Ventures/fleet-floor-workflows",
+      "blurb": "SHA-pinned reusable GitHub Actions workflows that give every repo in a fleet the same CI/security floor."
+    },
+    {
+      "repo": "Kyzcreig/alfred-karakeep"
+    },
+    {
+      "repo": "Kyzcreig/hermes-patch-status"
+    }
+  ],
+  "contrib_exclude": [],
+  "contrib_max_titles": 3,
+  "display_names": {
+    "home-assistant/core": "Home Assistant",
+    "music-assistant/server": "Music Assistant",
+    "NousResearch/hermes-agent": "Hermes Agent",
+    "stephenschoettler/hermes-lcm": "Hermes LCM",
+    "alandtse/alexa_media_player": "Alexa Media Player",
+    "karakeep-app/karakeep": "Karakeep",
+    "The-PR-Agent/pr-agent": "PR-Agent",
+    "garrytan/gbrain": "gbrain",
+    "router-for-me/CLIProxyAPI": "CLIProxyAPI",
+    "openclaw/openclaw": "OpenClaw"
+  }
+}
