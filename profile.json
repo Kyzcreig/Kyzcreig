@@ -56,8 +56,5 @@
     "garrytan/gbrain": "gbrain",
     "router-for-me/CLIProxyAPI": "CLIProxyAPI",
     "openclaw/openclaw": "OpenClaw"
-  },
-  "contrib_notes": {
-    "NousResearch/hermes-agent": "many landed upstream as maintainer-authored PRs"
   }
 }

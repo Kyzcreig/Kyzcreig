@@ -129,16 +129,7 @@ def contributing_section() -> list[str]:
         if len(picks) < n_max:
             picks += sorted(b["open"], key=lambda x: x["created_at"], reverse=True)[: n_max - len(picks)]
         titles = ", ".join(clean_title(p["title"]) for p in picks)
-        counts = []
-        if b["merged"]:
-            counts.append(f"{len(b['merged'])} merged")
-        if b["open"]:
-            counts.append(f"{len(b['open'])} open")
-        note = PROFILE.get("contrib_notes", {}).get(full)
-        if note:
-            counts.append(note)
-        lines.append(f"- **[{display_name(full)}](https://github.com/{full})** {star_badge(full)} - "
-                     f"{titles} *({' · '.join(counts)})*")
+        lines.append(f"- **[{display_name(full)}](https://github.com/{full})** {star_badge(full)} - {titles}")
     total_m = sum(len(v["merged"]) for v in rows.values())
     total_o = sum(len(v["open"]) for v in rows.values())
     return lines, total_m, total_o, len(rows)
