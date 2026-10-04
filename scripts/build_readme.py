@@ -134,6 +134,9 @@ def contributing_section() -> list[str]:
             counts.append(f"{len(b['merged'])} merged")
         if b["open"]:
             counts.append(f"{len(b['open'])} open")
+        note = PROFILE.get("contrib_notes", {}).get(full)
+        if note:
+            counts.append(note)
         lines.append(f"- **[{display_name(full)}](https://github.com/{full})** {star_badge(full)} - "
                      f"{titles} *({' · '.join(counts)})*")
     total_m = sum(len(v["merged"]) for v in rows.values())
@@ -153,7 +156,7 @@ def main() -> None:
         PROFILE["tagline"], "",
         *building_section(), "",
         *contrib, "",
-        f"*{tm} merged · {to} open pull requests across {nrepos} projects. "
+        f"*{tm + to} pull requests across {nrepos} projects. "
         f"Last updated: {datetime.now(timezone.utc).strftime('%Y-%m-%d')} (auto-generated weekly by "
         f"[`scripts/build_readme.py`](scripts/build_readme.py)).*", "",
     ]
