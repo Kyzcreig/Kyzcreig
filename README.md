@@ -34,4 +34,4 @@ Building a house that runs itself — local voice (ESP32/XVF3800 satellites), Ho
 - **[qmd](https://github.com/tobi/qmd)** [![GitHub stars](https://img.shields.io/github/stars/tobi/qmd?style=flat&color=gold)](https://github.com/tobi/qmd) - Expose reranker score in MCP/REST explain output
 - **[m1ddc](https://github.com/waydabber/m1ddc)** [![GitHub stars](https://img.shields.io/github/stars/waydabber/m1ddc?style=flat&color=gold)](https://github.com/waydabber/m1ddc) - Add direct DDC service enumeration: display list all, serial=<alphanumeric_serial>
 
-*210 pull requests across 16 projects. Last updated: 2026-10-11 (auto-generated weekly by [`scripts/build_readme.py`](scripts/build_readme.py)).*
+*210 pull requests across 16 projects. Last updated: 2026-10-12 (auto-generated weekly by [`scripts/build_readme.py`](scripts/build_readme.py)).*
